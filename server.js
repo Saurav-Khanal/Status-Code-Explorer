@@ -4,9 +4,7 @@ app.listen(3000, () => {
   console.log("app is running on localhost 3000");
 });
 app.use(express.static("public"));
-app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to Status Code Explorer" });
-});
+
 
 const statusCodes = [
   { code: 200, message: "OK" },

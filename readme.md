@@ -3,7 +3,7 @@ Hey this is for understand the what status code means in backend in simple.
 here's an AWESOME gif of my project!
 ![StatusCode Explorer Demo](./screenshots/Animation.gif)
 ## HOW THIS WAS MADE
-I made this because i frequently forget what status code means what so i build this to see instantly.hehe
+I made this because i frequently forget the status code meanining.so i build this to see instantly.
 ## heres how to run the project :)
 1. Clone the source code to your device
 ```sh
@@ -24,5 +24,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
 ## AI DISCLOSURE
 I used ai for generating the status code array and for some debug only.
