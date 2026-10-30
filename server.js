@@ -4,7 +4,9 @@ app.listen(3000, () => {
   console.log("app is running on localhost 3000");
 });
 app.use(express.static("public"));
-
+app.get("/",(req,res)=>{
+  res.redirect("/index.html");
+})
 const statusCodes = [
   { code: 200, message: "OK" },
   { code: 201, message: "Created" },
