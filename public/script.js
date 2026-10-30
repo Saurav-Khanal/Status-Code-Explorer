@@ -3,7 +3,7 @@ let button=document.querySelector("button");
 let p=document.querySelector(".result-box p");
 button.addEventListener("click",()=>{
 const UserInput=inputField.value;
-const url=`http://localhost:3000/status/${UserInput}`;
+const url = `/status/${UserInput}`;
 fetch(url)
 .then((response)=>{
     return response.json();

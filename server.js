@@ -5,7 +5,6 @@ app.listen(3000, () => {
 });
 app.use(express.static("public"));
 
-
 const statusCodes = [
   { code: 200, message: "OK" },
   { code: 201, message: "Created" },
