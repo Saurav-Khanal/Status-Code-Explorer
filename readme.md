@@ -1,7 +1,7 @@
 # Status Code Explorer!!! 
 Hey this is for understand the what status code means in backend in simple.
 here's an AWESOME gif of my project!
-![awesome gif](https://user-cdn.hackclub-assets.com/019f0195-7b3c-7a6b-a8c9-ba589c575ae6/blahajmeow.gif)
+![StatusCode Explorer Demo](./screenshots/Animation.gif)
 ## HOW THIS WAS MADE
 I made this because i frequently forget what status code means what so i build this to see instantly.hehe
 ## heres how to run the project :)
