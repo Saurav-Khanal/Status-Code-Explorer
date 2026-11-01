@@ -66,14 +66,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 1;
-    padding: 10px;
+    gap:10px;
+    padding: 5px;
 }
 
 .result-box p{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-size: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.result-box h1,
+.result-box h2,
+.result-box p {
+    margin: 0;
 }
