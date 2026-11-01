@@ -58,14 +58,22 @@ body{
 }
 
 .result-box{
-    height: 200px;
+    height: 300px;
     width: 500px;
     background-color: aliceblue;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    padding: 10px;
 }
 
 .result-box p{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
